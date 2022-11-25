@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Keyboard</title>
+  <link rel="stylesheet" href="keyboard.css">
+</head>
+  <body>
+    <div class="container">
+      <form class="wrapper" name="form">
+        <div class="inputhide">
+          <input type="text" autocomplete="off" id="storecharacter" class="inputcharacter" onkeyup="colorchange();">
+        </div>
+        <div class="hidediv"></div>
+        <div class="newgame">
+          <div class="time" id="time">00:00</div>
+          <div class="newgamereal" onclick="realmain();">New game</div>
+        </div>
+          <div class="display">
+              <div name="textarea" id="textarea" cols="30" rows="10"></div>
+          </div>
+        <div class="keys">
+          <input type="button" value="Q" id="q"name="Q"onclick="disp(Q.value)">
+          <input type="button" value="W" id="w"name="W"onclick="disp(W.value)">
+          <input type="button" value="E" id="e"name="E"onclick="disp(E.value)">
+          <input type="button" value="R" id="r"name="R"onclick="disp(R.value)">
+          <input type="button" value="T" id="t"name="T"onclick="disp(T.value)">
+          <input type="button" value="Y" id="y"name="Y"onclick="disp(Y.value)">
+          <input type="button" value="U" id="u"name="U"onclick="disp(U.value)">
+          <input type="button" value="I" id="i"name="I"onclick="disp(I.value)">
+          <input type="button" value="O" id="o"name="O"onclick="disp(O.value)">
+          <input type="button" value="P" id="p"name="P"onclick="disp(P.value)">
+        </div>
+        <div class="keys">
+          <input type="button" value="A" id="a"name="A"onclick="disp(A.value)">
+          <input type="button" value="S" id="s"name="S"onclick="disp(S.value)">
+          <input type="button" value="D" id="d"name="D"onclick="disp(D.value)">
+          <input type="button" value="F" id="f"name="F"onclick="disp(F.value)">
+          <input type="button" value="G" id="g"name="G"onclick="disp(G.value)">
+          <input type="button" value="H" id="h"name="H"onclick="disp(H.value)">
+          <input type="button" value="J" id="j"name="J"onclick="disp(J.value)">
+          <input type="button" value="K" id="k"name="K"onclick="disp(K.value)">
+          <input type="button" value="L" id="l"name="L"onclick="disp(L.value)">
+        </div>
+        <div class="keys">
+          <input type="button" value="Z" id="z"name="Z"onclick="disp(Z.value)">
+          <input type="button" value="X" id="x"name="X"onclick="disp(X.value)">
+          <input type="button" value="C" id="c"name="C"onclick="disp(C.value)">
+          <input type="button" value="V" id="v"name="V"onclick="disp(V.value)">
+          <input type="button" value="B" id="b"name="B"onclick="disp(B.value)">
+          <input type="button" value="N" id="n"name="N"onclick="disp(N.value)">
+          <input type="button" value="M" id="m"name="M"onclick="disp(M.value)">
+        </div>
+        <div class="keys">
+          <input type="button" id=" " value="SPACE">
+          <!-- <input type="text" id="storecharacter" class="inputcharacter" onkeyup="colorchange();"> -->
+        </div>
+        <!-- <div class="waste"></div> -->
+        <!-- <input type="text" id="storecharacter" class="inputcharacter" onkeyup="colorchange();"> -->
+    </form>
+</div>
+<script src="keyboard.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!-- <script type="text/javascript">
+  $('body').on('click', function (e) {
+    console.log("first")
+  }
+);
+</script> -->
+</body>
+</html>
